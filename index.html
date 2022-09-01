@@ -10,12 +10,11 @@
     <title>The Orchst</title>
 </head>
 <body>
-
     <div class="about_me">
         <h1>The Orchst.</h1>
         <p>
             Chess Grandmaster, Hearthstone & DotA fan<br>
-            <i class="fa-solid fa-location-dot"></i> Geneva
+            <i class="fa-solid fa-location-dot"><div id="location"></div></i> 
         </p>
         <p style="text-align:center;margin: 2%;">
             <a href="https://www.twitch.tv/orchst">Twitch.tv</a><br>
@@ -33,5 +32,10 @@
         </p>
     </div>
 
+    <script>
+            let arr = ["Geneva", "Melbourne", "Helsinki", "Espoo", "Tallinn", "Riga", "London", "McMurdo Station"]
+            let location = arr[Math.floor(Math.random()*arr.length)];
+            document.getElementById("location").innerHTML = min;
+    </script>
 </body>
 </html>				
