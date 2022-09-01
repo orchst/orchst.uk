@@ -10,6 +10,12 @@
     <title>The Orchst</title>
 </head>
 <body>
+        <script type="text/javascript"> 
+            let arr = ["Geneva", "Melbourne", "Helsinki", "Espoo", "Tallinn", "Riga", "London", "McMurdo Station"]
+            let location = arr[Math.floor(Math.random()*arr.length)];
+            document.getElementById("location").innerHTML = location;
+    </script>
+    
     <div class="about_me">
         <h1>The Orchst.</h1>
         <p>
@@ -32,10 +38,5 @@
         </p>
     </div>
 
-    <script>
-            let arr = ["Geneva", "Melbourne", "Helsinki", "Espoo", "Tallinn", "Riga", "London", "McMurdo Station"]
-            let location = arr[Math.floor(Math.random()*arr.length)];
-            document.getElementById("location").innerHTML = location;
-    </script>
 </body>
 </html>				
