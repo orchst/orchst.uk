@@ -1,0 +1,18 @@
+[Event "Playzone game"]
+[Date "2022.10.02"]
+[Round "1"]
+[White "Anderson, Markus"]
+[WhiteTitle "GM"]
+[WhiteElo "2516"]
+[Black "Agopov Mikael"]
+[BlackTitle "IM"]
+[BlackElo "2464"]
+[Result "1-0"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w HAha - 0 1"]
+[TimeControl "5400000+3"]
+[Time "17:29:13"]
+
+1.d4 {[%clk 00:15:06]} Nf6 {[%clk 00:15:06]} 2.Nf3 {[%clk 00:14:53]} 
+e6 {[%clk 00:15:01]} 3.Bf4 {[%clk 00:14:55]} c5 {[%clk 00:13:35]} 
+4.e3 {[%clk 00:14:50]} d5 {[%clk 00:11:38]} 5.Nc3 {[%clk 00:13:19]} 1-0
+
